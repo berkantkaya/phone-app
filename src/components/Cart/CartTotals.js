@@ -42,7 +42,7 @@ export default class CartTotals extends Component {
                   <strong>$ {cartTotal} </strong>
                 </h5>
                 <PayPalButton
-                  totalAmount={cartTotal}
+                  total={cartTotal}
                   clearCart={clearCart}
                   history={history}
                 />
